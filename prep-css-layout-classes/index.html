@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Avatar: The Last Airbender</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="./images/atla-season1.jpg" alt="Season 1">
+        <h3>ATLA: Season 1</h3>
+        <p><em>Avatar: The Last Airbender</em> begins its first season introducing the audience to the world of the show.
+        It shows the viewers the setting, circumstances, and stakes pretty quickly. We follow our heroes as they make their
+        way around the world trying to learn more about bending the elements so that Aang can defeat the oppressive firelord. The
+        season ends with our heroes in the North Pole, learning new bending and defending the North Pole from the Fire Nation's siege.</p>
+      </div>
+      <div class="column">
+        <img src="./images/atla-season2.jpg" alt="Season 2" style="padding-bottom:11px;">
+        <h3>ATLA: Season 2</h3>
+        <p>
+          Season 2 of <em>Avatar: The Last Airbender</em> follows our protagonists as they further learn to harness their powers.
+          Aang still needs to master the earth and fire elements, and during this process, they eventually learn of a solar eclipse
+          that will weaken the Fire Nation and so they decide to go to Ba Sing Se to tell the Earth King. Unbeknownst to our heroes,
+          Ba Sing Se has been infiltrated, and the new abilities Aang learns backfire. The season ends on a somber note, but still following our heroes.
+        </p>
+      </div>
+      <div class="column">
+        <img src="./images/atla-season3.jpg" alt="Season 3">
+        <h3>ATLA: Season 3</h3>
+        <p>
+          The final season of <em>Avatar: The Last Airbender</em> starts with our heroes in the darkest of places. They are barely
+          scraping by on their own. They decide to infiltrate the Fire Nation while undercover and defeat the Fire Lord during the solar eclipse.
+          Unfortunately, the attack fails, our heroes retreat again, and they end up making an ally out of a previous foe. The series ends with
+          Aang mastering all 4 elements and not needing to kill the Fire Lord, but neutralizing his powers instead. Peace is brought once more to all 4 nations
+          thanks to the avatar.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
